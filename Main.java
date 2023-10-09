@@ -17,8 +17,13 @@ public class Main {
         double tipPerPerson = totalTip / numberOfPeople;
         double splitBill = bill / numberOfPeople;
         double totalPerPerson = splitBill + tipPerPerson;
+        double totalBill = bill + totalTip;
         System.out.printf("Tip Per Person: = %.2f", tipPerPerson);
         System.out.println();
         System.out.printf("Total Per Person = %.2f", totalPerPerson);
+        System.out.println();
+        System.out.printf("Total Bill including tip = %.2f", totalBill);
+        System.out.println();
+        System.out.printf("Total tip = %.2f", totalTip);
     }
 }
